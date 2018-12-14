@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript" src="./js/jquery-1.10.1.js"></script>
+</head>
+<body>
+
+<script>
+  $.get("http://localhost:3000/home", function(data){
+    console.log(data);
+  });
+
+  $.post("http://localhost:3000/service",function(data){
+    console.log(data);
+  });
+
+</script>
+
+</body>
+</html>
